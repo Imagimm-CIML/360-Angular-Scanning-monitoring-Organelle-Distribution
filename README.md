@@ -17,4 +17,5 @@
 - Make the mean per condition and display the mean curves overlay per condition 
 ![Superposition](https://user-images.githubusercontent.com/41480459/186090896-6e5dda47-307e-40e4-9a88-d1c4cdd77330.png)
 - Fit the Y0 per condition (angle = 180 degrees) to obtain a quantification of polarisation from these curves
-If the ofsset is low, the polarisation is high.
+If the offset is low, the polarisation is high.
+- From these two quantifications (centroids distance and offset in dispersion angle), we obtain the same results in term of polarisation quantification.
