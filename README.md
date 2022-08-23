@@ -15,4 +15,5 @@
 - Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity (max = 100) 
 - Make the mean per condition and display the mean curves overlay per condition 
 ![Superposition](https://user-images.githubusercontent.com/41480459/186090896-6e5dda47-307e-40e4-9a88-d1c4cdd77330.png)
-- Fit the Y0 per condition (angle = 180 degrees) to obtain a quantification from these curves
+- Fit the Y0 per condition (angle = 180 degrees) to obtain a quantification of polarisation from these curves
+If the ofsset is low, the polarisation is high.
