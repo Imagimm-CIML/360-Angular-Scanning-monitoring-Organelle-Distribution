@@ -13,9 +13,9 @@
 
 # Use the jupyter notebook "Polarisation_Profile_FitY0.ipynb" to :
 - Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity (max = 100) 
-- Bin your profile data by 30 degrees to smooth the curves
+- Bin your profile data by 30 degrees to smooth the curves (the maximum 
 - Make the mean per condition and display the mean curves overlay per condition 
 ![Superposition](https://user-images.githubusercontent.com/41480459/186090896-6e5dda47-307e-40e4-9a88-d1c4cdd77330.png)
-- Fit the Y0 per condition (angle = 180 degrees) to obtain a quantification of polarisation from these curves
+- Fit the curves with a Gaussian to determine the Y0 per condition (angle = 180 degrees) to obtain a quantification of polarisation from these curves
 If the offset is low, the polarisation is high.
 - From these two quantifications (centroids distance and offset in dispersion angle), we obtain the same results in term of polarisation quantification.
