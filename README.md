@@ -5,7 +5,7 @@
 - Binarize your labelling (nucleus and endosomes) and find the centroids :
 
 ![binarize](https://user-images.githubusercontent.com/41480459/186090516-4a8c6b34-f171-43f1-b751-d890f9dccca8.jpg)
-- Calculate the distance and normalize by (feret/2)
+- Calculate the distance between centroids and normalize this distance by (feret/2): the value will be nbetween 0 and 1.
 - Transform your image in polar image with the plugin polar transform inside the macro :
 
 ![Polar Transform](https://user-images.githubusercontent.com/41480459/186090698-c9b6ac73-9e67-4e7a-acad-1db4ed5c0fc8.jpg)
@@ -13,6 +13,7 @@
 
 # Use the jupyter notebook "Polarisation_Profile_FitY0.ipynb" to :
 - Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity (max = 100) 
+- Bin your profile data by 30 degrees to smooth the curves
 - Make the mean per condition and display the mean curves overlay per condition 
 ![Superposition](https://user-images.githubusercontent.com/41480459/186090896-6e5dda47-307e-40e4-9a88-d1c4cdd77330.png)
 - Fit the Y0 per condition (angle = 180 degrees) to obtain a quantification of polarisation from these curves
