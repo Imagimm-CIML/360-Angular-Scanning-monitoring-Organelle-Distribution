@@ -12,4 +12,4 @@
 - Normalize your profile in X (shift) and Y (max = 100) with the jupyter notebook
 - Make the mean per condition and display the mean curves overlay per condition Polarisation_Profile_FitY0.ipynb
 ![Superposition](https://user-images.githubusercontent.com/41480459/186090896-6e5dda47-307e-40e4-9a88-d1c4cdd77330.png)
-- Fit the Y0
+- Fit the Y0 per condition (angle = 180 degrees) to obtain a quantification from these curves
