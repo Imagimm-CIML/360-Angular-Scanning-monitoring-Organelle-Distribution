@@ -11,7 +11,7 @@
 ![Polar Transform](https://user-images.githubusercontent.com/41480459/186090698-c9b6ac73-9e67-4e7a-acad-1db4ed5c0fc8.jpg)
 - Calculate the profile in intensity (number of white pixel in the radial image in Y) versus angle
 
-# Use the jupyter notebook "Polarisation_Profile_Lowess_STD.ipynb" to :
+# Use the jupyter notebook "Polarisation_Profile_Lowess_STD.ipynb" to:
 - Use Lowess function to remove high peak (smothing)
 - Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity by the sum to obtain probability
 - Make the mean per condition and display the mean curves overlay per condition 
