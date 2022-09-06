@@ -11,11 +11,14 @@
 ![Polar Transform](https://user-images.githubusercontent.com/41480459/186090698-c9b6ac73-9e67-4e7a-acad-1db4ed5c0fc8.jpg)
 - Calculate the profile in intensity (number of white pixel in the radial image in Y) versus angle
 
-# Use the jupyter notebook "Polarisation_Profile_FitY0.ipynb" to :
-- Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity (max = 100) 
-- Bin your profile data by 30 degrees to smooth the curves (the peak maximum is originally too high due to high local maximum value)
+# Use the jupyter notebook "Polarisation_Profile_Lowess_STD.ipynb" to :
+- Use Lowess function to remove high peak (smothing)
+- Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity by the sum to obtain probability
 - Make the mean per condition and display the mean curves overlay per condition 
-![Superposition](https://user-images.githubusercontent.com/41480459/186090896-6e5dda47-307e-40e4-9a88-d1c4cdd77330.png)
+
+
+# optional :
+- Bin your profile data by 30 degrees to smooth the curves (the peak maximum is originally too high due to high local maximum value)
 - Fit the curves with a Gaussian to determine the Y0 per condition (angle = 180 degrees) to obtain a quantification of polarisation from these curves
 (If the offset is low, the polarisation is high).
-- From these two quantifications (centroids distance and offset in dispersion angle), we obtain the same results in term of polarisation quantification.
+
