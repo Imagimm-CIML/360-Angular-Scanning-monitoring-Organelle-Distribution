@@ -15,6 +15,7 @@
 - Use Lowess function to remove high peak (smothing)
 - Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity by the sum to obtain probability
 - Make the mean per condition and display the mean curves overlay per condition 
+![Superposition](https://user-images.githubusercontent.com/41480459/188651914-3faa98c9-701e-4714-9764-9f3cc5ab49e3.png)
 
 
 # optional :
