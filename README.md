@@ -12,11 +12,11 @@
 - Calculate the profile in intensity (number of white pixel in the radial image in Y) versus angle
 
 # Use the jupyter notebook "Polarisation_Profile_Lowess_STD.ipynb" to:
-- Use Lowess function to remove high peak (smothing)
+- Use Lowess function to remove high peak (smoothing)
 - Normalize your profile in X (shift the max intensity to 0 (angle) and from -180 to 180) and Intensity by the sum to obtain probability
 - Make the mean per condition and display the mean curves overlay per condition 
 ![Superposition](https://user-images.githubusercontent.com/41480459/188651914-3faa98c9-701e-4714-9764-9f3cc5ab49e3.png)
-
+- Calculate the standard deviation for each condition to quantify the dispersion in angle among the mean. As non polarized curved do not go to 0 (ofsset), the std of thius curves should be higher
 
 # optional :
 - Bin your profile data by 30 degrees to smooth the curves (the peak maximum is originally too high due to high local maximum value)
