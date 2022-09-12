@@ -1,4 +1,4 @@
-# Determining the cell polarisation (endosomes localisation versus nucleus)
+# 360-ASOD (360° Angular Scanning monitoring Organelle Distribution)  
 ![test](https://user-images.githubusercontent.com/41480459/186089158-055e6063-6655-4905-8c3a-ea8225ca5416.jpg)
 
 # Use the macro "polarisation_polar_dispersion.ijm" to :
